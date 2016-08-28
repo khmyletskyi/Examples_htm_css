@@ -1,0 +1,180 @@
+body {
+ background-color: #FFFFFF;
+ font-family:arial;
+}
+header {
+  display:inline-block;
+  height: 100%;
+  width: 100%;
+  margin-top:-25px;
+  background-color: #232323;
+}
+.logo {
+  float:left;
+  height: 78px;
+  width: 250px;
+  background:url('images/logo.png') no-repeat center center;
+}
+.login {
+  float:right;
+  height: 74px;
+  width: 74px;
+  background:url('images/login.png')no-repeat center center;
+  border:2px solid #2F2F2F
+}
+.search {
+  float:right;
+  height: 74px;
+  width: 74px;
+  background:url('images/search.png')no-repeat center center;
+  border:2px solid #2F2F2F;
+  margin-right:-2px
+}
+.share {
+  float:right;
+  height: 74px;
+  width: 106px;
+  background:url('images/share.png') no-repeat center center;
+  border:2px solid #2F2F2F;
+  margin-right:-2px
+}
+.c-share {
+	position:fixed;
+	top:75px;
+	width: 150px;
+	font-weight:bold;
+	background:#FFFFFF;
+	border:2px solid #2F2F2F;
+	z-index:11;	
+}
+.share table {
+	padding:0px;
+	border-collapse:collapse;
+	margin:-2px;
+}
+.share table td {
+	padding:9px;
+	border:1px solid #E7E7E7;
+}
+.c-share{display:none}
+.header> li:hover .c-share{display:inline-block;}
+nav{
+  display:inline-block;
+  vertical-align:top;
+  height: 100%;
+  min-height: 1500px;
+  width: 60px;
+  border:2px solid #EBEBEB;
+  margin-top:-4px;
+}
+ul {
+ list-style:none;
+}
+.nav{
+  position: relative;
+  right: 42px;
+  height: 60px;
+  width: 60px;
+  border:2px solid #EBEBEB;
+  margin-top:-2px;
+}
+.graphic {background:url('images/graphic.png')no-repeat center center; margin-top:-18px}
+.music {background:url('images/music.png')no-repeat center center;}
+.photography {background:url('images/photography.png')no-repeat center center;}
+.cinema {background:url('images/cinema.png')no-repeat center center;}
+.business {background:url('images/business.png')no-repeat center center;}
+.travel {background:url('images/travel.png')no-repeat center center;}
+.fashion {background:url('images/fashion.png')no-repeat center center;}
+.more {background:url('images/more.png')no-repeat center center;}
+.settings {background:url('images/settings.png')no-repeat center center; margin-top:300px}
+.graphic:hover {
+	height: 64px;
+    width: 141px;
+	background:url('images/graphichover.png')no-repeat /*center center*/;
+	z-index:12
+}
+.music:hover {
+	height: 61px;
+    width: 143px;
+	background:url('images/musichover.png')no-repeat center center;
+	z-index:12
+}
+.photography:hover {
+	height: 61px;
+    width: 160px;
+	background:url('images/photographyhover.png')no-repeat center center;
+	z-index:12
+}
+.cinema:hover {
+	height: 61px;
+    width: 143px;
+	background:url('images/cinemahover.png')no-repeat center center;
+	z-index:12
+}
+.business:hover {
+	height: 61px;
+    width: 143px;
+	background:url('images/businesshover.png')no-repeat center center;
+	z-index:12
+}
+.travel:hover {
+	height: 61px;
+    width: 143px;
+	background:url('images/travelhover.png')no-repeat center center;
+	z-index:12
+}
+.fashion:hover {
+	height: 61px;
+    width: 143px;
+	background:url('images/fashionhover.png')no-repeat center center;
+	z-index:12
+}
+.more:hover {
+	height: 61px;
+    width: 143px;
+	background:url('images/morehover.png')no-repeat center center;
+	z-index:12
+}
+.settings:hover {
+	height: 61px;
+    width: 143px;
+	background:url('images/settingshover.png')no-repeat center center;
+	z-index:12
+}
+content{
+	display:inline-block;
+	position: absolute;
+    left: 80px;
+	z-index:10
+}
+.column{
+	display:inline-block;
+	vertical-align:top;
+	width: 32%;
+	min-width:350px;
+}
+.news{
+  display:inline-block;
+  border:2px solid #EBEBEB;
+  margin:20px 0 0 20px;
+}
+.image>img{
+	width:100%;
+	z-index:20
+}
+.title {
+	font-size:16pt;
+	font-weight:bold;
+	padding:0 15px;
+}
+.preview {
+	font-size:12pt;
+	padding:0 15px;
+}
+.calendar {display:inline-block;}
+.comments {display:inline-block;}
+.calendar img,.comments img{padding:0 7px;}
+
+.image:hover img{
+	opacity:0.2;
+}
